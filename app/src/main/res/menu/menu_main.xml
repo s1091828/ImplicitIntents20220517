@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.implicitintents.MainActivity">
+
+    <item android:id="@+id/web" android:title="子青老師網頁"
+        app:showAsAction="ifRoom"></item>
+
+    <item android:id="@+id/email" android:title="寄信給子青老師"
+        app:showAsAction="ifRoom"></item>
+
+    <item android:id="@+id/search" android:title="搜尋楊子青"
+        app:showAsAction="ifRoom"></item>
+
+    <item android:id="@+id/map" android:title="根據靜宜大學GPS座標，顯示地圖"
+        app:showAsAction="ifRoom"></item>
+
+</menu>
